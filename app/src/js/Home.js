@@ -8,8 +8,8 @@ const Home = () => {
 
   const logout = async () => {
     try {
-      // const res = await fetch('https://my-site-12.herokuapp.com/logout', {
-      const res = await fetch('http://localhost:5000/logout', {
+      const res = await fetch('https://onkar-auth-demo.herokuapp.com/logout', {
+      // const res = await fetch('http://localhost:5000/logout', {
         credentials: 'include',
       });
       const data = res.json();
